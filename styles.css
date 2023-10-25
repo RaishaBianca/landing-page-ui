@@ -1,0 +1,92 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Basic styling for sections */
+.section {
+    background: #fff;
+    font-size: 24px;
+}
+
+.header {
+    display: flex; /* Add this to make .part1 a flex container */
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    transition: all 1s ease-in; 
+}
+
+.mockup {
+    width: 400px;
+    order: -1;
+}
+
+.introduction {
+    max-width: fit-content;
+}
+
+h1 {
+    margin: 0px 0px;
+    font-size: 80px;
+    max-width: fit-content;
+}
+
+.part1 p {
+    max-width: fit-content;
+}
+
+/* Add styles for the image */
+.mockup {
+    max-width: 750px;
+}
+
+.part2 {
+    background-color: #F2F2F2;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 80px;
+    gap: 15%;
+}
+
+.desc h1 {
+    font-size: 70px;
+}
+
+.button {
+    background-color: rgb(16, 16, 16);
+    padding: 10px;
+    padding-inline: 20px;
+    max-width: fit-content;
+    border-radius: 4px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    vertical-align:middle;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(94, 94, 94);
+    cursor: default;
+}
+
+.mockup_project{
+    border-radius:8;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+.desc_words {
+    margin-bottom: 60px;
+}
+
+.desc_words p{
+    margin-top: 16px;
+    text-align: justify;
+}

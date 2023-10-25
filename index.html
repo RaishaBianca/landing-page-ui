@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FullPage.js Example</title>
+    <link rel="stylesheet" type="text/css" href="fullpage.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section part1">
+            <div class="header">
+                <div class="introduction">
+                    <h1>Hi There, </h1>
+                    <p>My name is <b>Raisha Bianca</b> and this is my portofolio website. <br>Feel free to look around</p>
+                    <hr class="horizontal_line">
+                </div>
+                <img src="./image/Islamic girl.svg" alt="mockup of workfrom" class="mockup">
+            </div>
+        </div>
+
+        <div class="section part2">
+            <div class="flex">
+                <div class="desc">
+                    <div class="desc_words">
+                        <h1>Workfrom</h1>
+                        <p>An agile and high-velocity project with the goal of swiftly addressing a specified case study. This project revolves around the transformation of an existing office rental website through a comprehensive redesign.</p>
+                    </div>
+                    <div class="button"><a href="">Learn more &#8594;</a></div>
+                </div>
+                <img src="./image/Landing_Page.svg" alt="mockup of workfrom" class="mockup_project">
+            </div>
+        </div>
+        
+        <div class="section part2">
+            <div class="flex">
+                <div class="desc">
+                    <div class="desc_words">
+                        <h1>News subscription</h1>
+                        <p>This project was undertaken as part of the 13-day challenge with the goal of designing a news portal-related landing page. The challenge theme centered around creating a captivating and informative landing page for a news portal.</p>
+                    </div>
+                    <div class="button"><a href="">Learn more &#8594;</a></div>
+                </div>
+                <img src="./image/news.jpg" alt="mockup of workfrom" class="mockup_project">
+            </div>
+        </div>
+
+        <div class="section part2">
+            <div class="flex">
+                <div class="desc">
+                    <div class="desc_words">
+                        <h1>Marketplace mobile</h1>
+                        <p>This project was undertaken as part of the 13-day challenge with the goal of designing a news portal-related landing page. The challenge theme centered around creating a responsive version of a marketplace design.</p>
+                    </div>
+                    <div class="button"><a href="">Learn more &#8594;</a></div>
+                </div>
+                <img src="./image/marketplace_mobile.svg" alt="mockup of workfrom" class="mockup_project" style="max-height: 600px;">
+            </div>
+        </div>
+
+        <div class="section part2">
+            <div class="flex">
+                <div class="desc">
+                    <div class="desc_words">
+                        <h1>Pintara ID</h1>
+                        <p>A project to develop a brand-fitting landing page for pintara.id, an education-focused company, as part of a selection exam.</p>
+                    </div>
+                    <div class="button"><a href="">Learn more &#8594;</a></div>
+                </div>
+                <img src="./image/pintara.svg" alt="mockup of workfrom" class="mockup_project">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                navigation: true, 
+                sectionsColor: ['#f2f2f2', '#f2f2f2', '#f2f2f2'], 
+                scrollingSpeed: 800, 
+            });
+        });
+    </script>
+</body>
+</html>
