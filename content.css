@@ -1,0 +1,184 @@
+.flex_content {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 48px;
+    align-items: center;
+}
+
+.mockup_project_content {
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.mockup_project_fourth {
+    border-radius:8;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+}
+
+.similar_websites {
+    border-radius:8;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.similar_websites_fourth {
+    border-radius:8;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+}
+
+.desc_words_content {
+    margin-bottom: 60px;
+}
+
+.desc {
+    gap: 5%;
+}
+
+.desc_words_second p{
+    text-align: left;
+    line-height: 1.5;
+    margin-block: 0px;
+}
+
+h4 {
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-block: 0px;
+}
+
+.desc_words_second p.first-paragraph {
+    margin-top: 24px;
+}
+
+.additional {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 4%;
+}
+
+
+.desc_words_second h2 {
+    border-bottom: 1px solid  rgb(16, 16, 16);
+    display: inline; 
+    padding-bottom: 8px; 
+}
+
+.problems_solutions{
+    display: flex;
+    align-items: center;
+    margin-inline: 48px;
+    flex-direction: column;
+}
+
+.problems{
+    background-color:  #282828;
+    color: #f2f2f2;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 400px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.problems_second {
+    background-color:  #282828;
+    color: #f2f2f2;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.solutions {
+    border:2px solid #282828;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 400px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.solutions_img {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    font-size: 16px;
+    order: -1;
+    padding: 0px;
+    margin-bottom: 2%;
+    }
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.answers {
+    display: flex;
+    gap: 5%;
+}
+
+.answers_second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.row-container {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.row {
+    display: flex;
+}
+
+/* Add any other styles you need for .row and .row-container */
+
+.back_button {
+    color: #f2f2f2;
+    background-color: #282828;
+    padding: 20px;
+    margin-inline: auto;
+    border-radius: 8px;
+    display: flex;
+    max-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_button:hover {
+    background-color: rgb(94, 94, 94);
+    cursor: default;
+}
+
+.back_button a{
+    color: #f2f2f2;
+    text-decoration: none;
+    padding-left: 8px;
+}
+
+
+.fa-home {
+    color: #f2f2f2;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Raisha Bianca</title>
+    <link rel="stylesheet" type="text/css" href="fullpage.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section part1">
+            <div class="flex_content">
+                        <h1>Workfrom</h1>
+                        <img src="./image/Landing_Page.svg" alt="mockup of workfrom" class="mockup_project_content">
+            </div>
+        </div>
+
+        <div class="section part2">
+            <div class="flex">
+                <div class="desc_words_second">
+                    <h2>Study Case</h2>
+                    <p class="first-paragraph">Workfrom is a <b>platform connecting property owners with renters for various workplace and event needs</b>. It offers a user-friendly solution for renters to find and secure spaces that meet their requirements. The platform's owner is committed to refreshing the design and enhancing the user experience.</p>
+                    <div class="additional">
+                        <p><b>Research methode :</b> Focus Group Discussion</p>
+                        <p><b>Duration :</b> 3 Days</p>
+                        <p><b>Role :</b> UI Designer, UX Researcher</p>
+                    </div>
+                </div>
+                <figure><img src="./image/workfrom.id_.png" alt="mockup of workfrom" class="mockup_project">
+                <figcaption>website old look</figcaption></figure>
+            </div>
+        </div>
+        
+        <div class="section part2">
+            <div class="flex">
+                <div class="problems_solutions">
+                    <h2>Problems & Solutions</h2>
+                    <div class="answers">
+                        <div class="problems">
+                            <h4>Problems</h4>
+                            <ul>
+                                <li>The same room appears multiple times due to a logic error in designing the tagging system</li>
+                                <li>Inconsistent content entries in the search menu.</li>
+                                <li>Navigation that does not have a suitable hierarchy.</li>
+                                <li>The sorting feature is not yet available, and the filter feature is incomplete.</li>
+                                <li>There are no detailed pages for each room.
+                                </li>
+                                <li>There is no information about the duration of the displayed prices.</li>
+                            </ul>
+                        </div>
+                        <div class="solutions">
+                            <h4>Solutions</h4>
+                            <ul>
+                              <li>Each room can have more than one use case tag.</li>
+                              <li>Maintain entry size by truncating overly long content.</li>
+                              <li>Place the blog under the landing page.</li>
+                              <li>Complete the filter feature and add sorting functionality.</li>
+                              <li>Add detail pages for use case menus or rooms.</li>
+                              <li>Add information about the duration of room or office usage.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section part2">
+            <div class="flex">
+                <div class="problems_solutions">
+                    <h2>Wireframe</h2>
+                    <div class="row-container">
+                        <div class="row">
+                            <figure>
+                                <img src="image/Wireframe - Landing Page.svg" alt="" class="mockup_project">
+                                <figcaption>Landing Page Wireframe</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="image/Wireframe - Use Case.svg" alt="" class="mockup_project">
+                                <figcaption>Use Case Wireframe</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="section part2">
+            <div class="flex">
+                <div class="problems_solutions">
+                    <h2>Mockup</h2>
+                    <div class="row-container">
+                        <div class="row">
+                            <figure>
+                                <img src="image/Landing Page.svg" alt="" class="mockup_project">
+                                <figcaption>Landing Page</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="image/Detail Ruangan.svg" alt="" class="mockup_project">
+                                <figcaption>Room Detail</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section part2">
+            <div class="flex">
+                <div class="problems_solutions">
+                    <h2>Mockup</h2>
+                    <div class="row-container">
+                        <div class="row">
+                            <figure>
+                                <img src="image/Search Ruangan.svg" alt="" class="mockup_project">
+                                <figcaption>Room Search Menu</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="image/Search Bangunan.svg" alt="" class="mockup_project">
+                                <figcaption>Bulding Search Menu</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section part2">
+            <div class="back_button"><i class="fas fa-home"></i> <a href="index.html">Back To Home</a></div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                navigation: true, 
+                sectionsColor: ['#f2f2f2', '#f2f2f2', '#f2f2f2'], 
+                scrollingSpeed: 800, 
+            });
+        });
+    </script>
+</body>
+</html>
